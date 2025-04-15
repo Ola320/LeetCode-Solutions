@@ -25,3 +25,7 @@ class Solution(object):
             return k
 
 
+s = Solution()
+nums = [3,6,3,2,5,7]
+val = 3
+print(s.removeElement(nums,val))
